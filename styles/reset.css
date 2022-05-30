@@ -1,0 +1,378 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400;
+    scroll-behavior: smooth;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-size: 16px;
+}
+
+:root {
+    --main-purple: #B61BFF;
+    --light-blue: #1BBBFF;
+    --medium-blue: #0041BE;
+    --dark-blue: #0E2865;
+    --main-white: #FFFFFF;
+    --main-gray: rgba(255, 255, 255, 0.6);
+}
+
+a, button {
+    text-decoration: none;
+    color: unset;
+    cursor: pointer;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    border: none;
+}
+
+a, h1, p, li, ul, h1, h2, h3, h4, div, h5, h6 {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-weight: unset;
+}
+
+*, *::before, *::after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    overflow-x: hidden;
+    min-height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.hidden {
+    display: none;
+}
+
+/* сам контейнер 1240, но добавила паддинг безопасности по 10px, чтобы не прилипало ниче */
+.container {
+    max-width: 1260px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+/* Зашеренные элементы */
+
+.logo {
+    width: 134.48px;
+    height: 20px;
+}
+
+.telegram {
+    width: 2.45rem;
+    height: 2.45rem;
+}
+
+.telegram circle {
+    stroke: #fff;
+    fill: none;
+    transition: fill 0.3s;
+}
+
+.telegram:hover circle {
+    fill: #fff;
+}
+
+.telegram path {
+    fill: white;
+    transition: fill 0.3s;
+}
+
+.telegram:hover path {
+    fill: #30B3F5;
+}
+
+/* Header */
+header {
+    padding-top: 2.8rem;
+    padding-bottom: 2.4rem;
+    color: var(--main-white);
+    background: var(--dark-blue);
+}
+
+.header__outer {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.header__sub {
+    color: #C9C9C9;
+    font-weight: 300;
+    font-size: 1.6rem;
+    line-height: 140%;
+    margin: 4px 0 0;
+}
+
+header a:focus {
+    border: 0;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    gap: 2.1rem;
+    margin-right: 44rem;
+}
+
+.bookmark__outer {
+    width: 40rem;
+    height: 67rem;
+    position: absolute;
+    top: -2.8rem;
+    right: 0;
+    z-index: 10;
+    margin: auto;
+}
+
+.bookmark__inner {
+    width: 40rem;
+    height: 67rem;
+    position: absolute;
+    opacity: 10%;
+    z-index: 10;
+    background: var(--main-white);
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+
+.spacing-header {
+    margin-top: 18rem;
+}
+
+.bookmark__bonuses-outer {
+    width: 32rem;
+    margin: 0 auto;
+    z-index: 11;
+}
+
+.bookmark__bonuses-outer > p {
+    font-size: 2rem;
+    line-height: 2.8rem;
+}
+
+.bookmark__bonuses-inner {
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
+    text-transform: uppercase;
+    margin-top: 4rem;
+}
+
+.bookmark__bonuses-container {
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+}
+
+.bookmark__bonuses-item {
+    margin-top: 1rem;
+    margin-left: 1.1rem;
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+}
+
+.bookmark__bonuses-item span {
+    margin-left: 1.8rem;
+}
+
+.square {
+    width: 5px;
+    height: 5px;
+    background: #FFF;
+    margin-bottom: 0.3rem;
+    margin-right: 1.2rem;
+    display: inline-block;
+}
+
+.header__line {
+    width: 64.5%;
+    height: 1px;
+    background: #D2D2D2;
+}
+
+/* Main (прибила футер к низу) */
+
+.main {
+    flex: 1 1 auto;
+}
+
+/* Footer */
+
+.footer {
+    padding: 40px 0 60px 0;
+    background: var(--dark-blue);
+
+}
+
+.footer__body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__left {
+}
+
+.footer__left-up {
+    display: flex;
+    align-items: center;
+}
+
+.footer__title {
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 140%;
+    color: var(--main-white);
+    max-width: 400px;
+    margin-right: 10px;
+}
+
+.footer__left-down {
+}
+
+.footer__phone {
+    font-weight: 400;
+    font-size: 2.8rem;
+    line-height: 140%;
+    margin-top: 24px;
+    color: var(--main-white);
+    text-decoration: underline;
+    text-decoration-color: transparent;
+}
+
+.footer__phone:hover,
+.footer__phone:active {
+    text-decoration: underline;
+    text-decoration-color: var(--main-white);
+}
+
+.footer__right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.footer__sub {
+    color: #C9C9C9;
+    font-weight: 300;
+    font-size: 1.6rem;
+    line-height: 140%;
+    text-align: right;
+    margin: 4px 0 24px 0;
+}
+
+.footer__remark {
+    max-width: 400px;
+    text-align: right;
+    color: var(--main-gray);
+    margin-bottom: 24px;
+    opacity: 0.5;
+    font-size: 1.4rem;
+}
+
+.footer__right-down {
+    display: flex;
+    color: var(--main-gray);
+    opacity: 0.5;
+    font-size: 1.4rem;
+}
+
+.footer__right-item {
+    margin-left: 20px;
+}
+
+
+
+/* Адаптив */
+
+@media screen and (max-width: 1024px) {
+    .container {
+        max-width: 992px;
+    }
+}
+
+
+@media screen and (max-width: 992px) {
+    .container {
+        max-width: 768px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    html {
+        font-size: 8px;
+    }
+
+    .container {
+        max-width: 576px;
+    }
+
+    .footer__body {
+        flex-direction: column;
+    }
+
+    .footer__right {
+        align-items: flex-start;
+        margin-top: 20px;
+    }
+
+    .footer__remark,
+    .footer__sub {
+        text-align: left;
+    }
+
+    .footer__right-item {
+        margin-left: 0;
+    }
+
+    .footer__sub {
+        margin-top: 10px;
+    }
+
+    .footer__right-down {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .footer__left-up {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+}
+
+@media screen and (max-width: 576px) {
+
+    .container {
+        max-width: 100%;
+        padding: 0 20px;
+    }
+
+    .footer__title,
+    .footer__remark {
+        max-width: 320px;
+    }
+}

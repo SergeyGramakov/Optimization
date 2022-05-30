@@ -1,0 +1,973 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="keywords" content="">
+    <meta property="og:image" content="">
+    <meta property="og:description" content="">
+    <meta name="description" content="">
+    <meta property="og:url" content="">
+
+    <title>MYFORCE</title>
+
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+    <meta name="viewport" content="width=device-width">
+
+    <link rel="stylesheet" href="styles/quiz.css">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="header__outer">
+                <div class="header__inner d-flex align-items-center">
+                    <a href="#">
+                        <div class="header__item">
+                            <img class="logo" src="src/logo.svg" alt="Логотип MYFORCE">
+                            <p class="header__sub">Экосистема для вашего бизнеса</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="header__inner">
+                    <div class="header__item links">
+                        <a href="https://t.me/gsilver27" target="_blank" class="header__item telegram">
+                            <svg class="telegram" width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="14" cy="14" r="11.75" stroke="white"/>
+                                <path d="M20.1132 8.93269C20.2223 8.2279 19.5522 7.67161 18.9256 7.94675L6.44422 13.4267C5.99482 13.624 6.0277 14.3047 6.49378 14.4532L9.06775 15.2728C9.55901 15.4293 10.091 15.3484 10.5199 15.052L16.3231 11.0427C16.4981 10.9218 16.6888 11.1707 16.5393 11.3248L12.3621 15.6316C11.9569 16.0493 12.0373 16.7573 12.5247 17.0629L17.2016 19.9958C17.7261 20.3247 18.401 19.9942 18.4991 19.3604L20.1132 8.93269Z" fill="white"/>
+                            </svg>
+                        </a>
+                        <a href="tel:8 495 118 39 34" class="phone">8 495 118 39 34</a>
+                    </div>
+                    <div class="bookmark__outer">
+                        <div class="bookmark__inner"></div>
+                        <div class="bookmark__bonuses-outer">
+                            <p class="spacing-header">Реанимируй бизнес или запусти новый проект и воспользуйся</p>
+                            <div class="bookmark__bonuses-inner">
+                                <div class="bookmark__bonuses-container">
+                                    01
+                                    <div class="bookmark__bonuses-item">
+                                        <div class="square"></div>Налоговыми каникулами
+                                    </div>
+                                </div>
+                                <div class="bookmark__bonuses-container">
+                                    02
+                                    <div class="bookmark__bonuses-item">
+                                        <div class="square"></div>Низкой процентной <span>ставкой</span>
+                                    </div>
+                                </div>
+                                <div class="bookmark__bonuses-container">
+                                    03
+                                    <div class="bookmark__bonuses-item">
+                                        <div class="square"></div>Частичной компенсанцией <span>средств на start-up</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header__line"></div>
+        </div>
+    </header>
+
+
+    <main class="main">
+        <div class="wrapper">
+            <section class="zero">
+                <img class="zero__gradient" src="./src/gradient.svg" alt="Градиент"/>
+                <div class="container">
+                    <div class="zero__body">
+                        <div class="zero__support">
+                            <div class="dash__white "></div>
+                            <p class="zero__support-txt">
+                                Получи поддержку бизнеса по федеральному закону ФЗ №46 от 8
+                                марта 2022 года
+                            </p>
+                        </div>
+                        <h1 class="zero__title">Запусти СВОЙ бизнес с нуля</h1>
+                        <p class="zero__sub">или реинтегрируй текущий</p>
+                        <h4 class="zero__business">MYFORCE BUSINESS</h4>
+                        <p class="zero__def">— это программа реинтеграции действующего бизнеса к стандартам конкурентов,
+                            или запуск нового проекта с нуля с использованием налоговых льгот и гос.финансирования по ФЗ
+                            № 46</p>
+                        <div class="zero__buttons">
+                            <a href="pages/quiz.html" class="btn__pink popup-btn">
+                                Узнать подходит ли бизнес к закону ФЗ№46
+                                <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="11" cy="11" r="10.5" stroke="white"/><path fill-rule="evenodd" clip-rule="evenodd" d="M6.1875 10.3125C6.00516 10.3125 5.8303 10.3849 5.70136 10.5139C5.57243 10.6428 5.5 10.8177 5.5 11C5.5 11.1824 5.57243 11.3572 5.70136 11.4862C5.8303 11.6151 6.00516 11.6875 6.1875 11.6875H14.1529L11.2007 14.6383C11.1368 14.7022 11.0861 14.7781 11.0515 14.8616C11.0169 14.9451 10.9991 15.0346 10.9991 15.125C10.9991 15.2154 11.0169 15.3049 11.0515 15.3884C11.0861 15.472 11.1368 15.5478 11.2007 15.6118C11.2647 15.6757 11.3406 15.7264 11.4241 15.761C11.5076 15.7956 11.5971 15.8134 11.6875 15.8134C11.7779 15.8134 11.8674 15.7956 11.9509 15.761C12.0344 15.7264 12.1103 15.6757 12.1742 15.6118L16.2992 11.4868C16.3633 11.4229 16.4141 11.347 16.4487 11.2635C16.4834 11.18 16.5012 11.0904 16.5012 11C16.5012 10.9096 16.4834 10.82 16.4487 10.7365C16.4141 10.653 16.3633 10.5771 16.2992 10.5133L12.1742 6.38826C12.1103 6.32434 12.0344 6.27364 11.9509 6.23904C11.8674 6.20445 11.7779 6.18665 11.6875 6.18665C11.5971 6.18665 11.5076 6.20445 11.4241 6.23904C11.3406 6.27364 11.2647 6.32434 11.2007 6.38826C11.1368 6.45219 11.0861 6.52807 11.0515 6.61159C11.0169 6.6951 10.9991 6.78462 10.9991 6.87501C10.9991 6.96541 11.0169 7.05492 11.0515 7.13844C11.0861 7.22196 11.1368 7.29784 11.2007 7.36176L14.1529 10.3125H6.1875Z" fill="white"/>
+                                </svg>
+                            </a> <!-- Ведёт на квиз -->
+                            <a class="btn__empty popup-btn">Консультация онлайн</a> <!-- Ведёт на модалку -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="how">
+                <div class="container">
+                    <div class="count white">
+                        <div class="dash__white"></div>
+                        <p class="count__num">01</p>
+                    </div>
+                    <h3 class="title white">Как принять участие в программе по реинтеграции бизнеса</h3>
+                    <div class="how__body">
+                        <div class="how__left">
+                            <h6 class="how__title">У вас действующий бизнес?</h6>
+                            <p class="how__sub">Как это работает:</p>
+                            <div class="how__item">
+                                <img class="how__img" src="./src/how1.svg" alt="Иконка к тексту">
+                                <p class="how__txt">Заполняете бриф с указанием сферы бизнеса</p>
+                            </div>
+
+                            <div class="how__item">
+                                <img class="how__img" src="./src/how2.svg" alt="Иконка к тексту">
+                                <p class="how__txt">
+                                    Если ваша сфера попадает под ФЗ №46, то наш бизнес-консультант
+                                    отправляет вам возможные программы реинтеграции
+                                </p>
+                            </div>
+
+                            <div class="how__item">
+                                <img class="how__img" src="./src/how3.svg" alt="Иконка к тексту">
+                                <p class="how__txt">
+                                    Если вашей сферы бизнеса нет в перечне, то мы предложим вам
+                                    альтернативный проект по оптимизации бизнеса
+                                </p>
+                            </div>
+
+                            <div class="how__item">
+                                <img class="how__img" src="./src/how4.svg" alt="Иконка к тексту">
+                                <p class="how__txt">Вы заключаете договор с указанием мер реинтеграции и оптимизации
+                                    бизнеса</p>
+                            </div>
+
+                            <div class="how__item">
+                                <img class="how__img" src="./src/how5.svg" alt="Иконка к тексту">
+                                <p class="how__txt">Наши специалисты запускают проект в работы, а MYFORCE компенсирует
+                                    часть расходов, чтобы Вам было еще комфортнее!</p>
+                            </div>
+                        </div>
+                        <div class="how__right">
+                            <h6 class="how__title">
+                                У вас нет бизнеса, но очень хотите открыть?
+                            </h6>
+                            <p class="how__sub">
+                                Как это работает:
+                            </p>
+                            <div class="how__item">
+                                <img class="how__img" src="./src/how1.svg" alt="Иконка к тексту">
+                                <p class="how__txt">
+                                    Заполняете бриф с указанием сферы бизнеса и описанием
+                                    деятельности
+                                </p>
+                            </div>
+
+                            <div class="how__item">
+                                <img class="how__img" src="./src/how6.svg" alt="Иконка к тексту">
+                                <p class="how__txt">
+                                    Наши бизнес-консультанты изучают информацию и составляют для Вас
+                                    план по запуску start-up`а
+                                </p>
+                            </div>
+
+                            <div class="how__item">
+                                <img class="how__img" src="./src/how7.svg" alt="Иконка к тексту">
+                                <p class="how__txt">
+                                    Вы заключаете договор с указанием мероприятий по запуску
+                                    start-up`а
+                                </p>
+                            </div>
+
+                            <div class="how__item">
+                                <img class="how__img" src="./src/how8.svg" alt="Иконка к тексту">
+                                <p class="how__txt">Получаете частичное финансирование расходов за счет MYFORCE</p>
+                            </div>
+
+                            <div class="how__line"></div>
+                            <p class="how__consult-txt">Получите консультацию по программе</p>
+                            <a class="btn__empty popup-btn">Консультация по программе</a> <!-- Ведёт на попап-->
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="what">
+                <div class="container">
+                    <div class="what__container">
+                        <div class="what__header">
+                            <div class="what__header-left">
+                                <div class="count blue">
+                                    <div class="dash__black"></div>
+                                    <p class="count__num">02</p>
+                                </div>
+                                <h3 class="title black">Что такое <span style="font-weight: 700">MYFORCE BUSINESS</span>
+                                </h3>
+                                <p class="what__header-sub">
+                                    Это комплекс услуг и мероприятий, разработанный компаний
+                                    MYFORCE с учетом ФЗ № 46 и направленный на реинтеграцию, оптимизацию, и
+                                    автоматизацию микробизнеса РФ с учетом современных экономических и финансовых
+                                    реалий!
+                                </p>
+                            </div>
+
+
+                            <div class="what__header-right">
+                                <img class="what__gradient" src="./src/gradient.svg" alt="Градиент">
+                                <div class="what__header-line"></div>
+                                <div class="what__header-important">
+                                    <p class="what__header-important-title">важно!</p>
+                                    <p class="what__header-important-txt">
+                                        При запуске программы с MYFORCE вы получаете
+                                        частичную компенсацию расходов на свой проект за счет льгот и системы поддержки
+                                        микробизнеса компании
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="what__body">
+                            <p class="what__title"><span style="font-weight: 600;">Какие возможности доступны с</span>
+                                MYFORCE BUSINESS</p>
+                            <div class="what__block">
+                                <div class="what__item">
+                                    <img class="what__item-img" src="./src/what1.svg" alt="Иконка к тексту">
+                                    <div class="what__item-txt">
+                                        <h5 class="what__item-title">Аудит маркетинга и рекламы</h5>
+                                        <ul class="what__item-list">
+                                            <li class="what__item-point">
+                                                Столкнулись с блокировкой рекламных компаний в
+                                                Instagram, Facebook, Google?
+                                            </li>
+                                            <li class="what__item-point">
+                                                Подскажим альтернативные варианты, поможем
+                                                перевести маркетинг, подберем новые площадки, составляем маркетинговый
+                                                план
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="what__item">
+                                    <img class="what__item-img" src="./src/what2.svg" alt="Иконка к тексту">
+                                    <div class="what__item-txt">
+                                        <h5 class="what__item-title">Аудит отдела продаж</h5>
+                                        <ul class="what__item-list">
+                                            <li class="what__item-point">Просели продажи в связи с новыми экономическими
+                                                реалиями?
+                                            </li>
+                                            <li class="what__item-point">Изучим УТП, найдем новые рынки сбыта,
+                                                переупакуем продукт под современного покупателя, научим менеджеров
+                                                продавать “по новому”
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="what__item">
+                                    <img class="what__item-img" src="./src/what3.svg" alt="Иконка к тексту">
+                                    <div class="what__item-txt">
+                                        <h5 class="what__item-title">Внедрение автоматизации и IT решений</h5>
+                                        <ul class="what__item-list">
+                                            <li class="what__item-point">
+                                                Видите, что ваш бизнес не идет в ногу с
+                                                конкурентами?
+                                            </li>
+                                            <li class="what__item-point">
+                                                Составим план автоматизации бизнеса, переведем
+                                                компанию в цифровой мир, создадим «персональные» и «уникальные» IT
+                                                решения специально под вас (от сайтов и CRM систем, до мобильных
+                                                приложений и gamedev)
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="what__item">
+                                    <img class="what__item-img" src="./src/what4.svg" alt="Иконка к тексту">
+                                    <div class="what__item-txt">
+                                        <h5 class="what__item-title">Внешнее управление и сопровождение бизнеса</h5>
+                                        <ul class="what__item-list">
+                                            <li class="what__item-point">
+                                                Хотите расширить бизнес или делегировать
+                                                управление?
+                                            </li>
+                                            <li class="what__item-point">
+                                                Комплексное временное управление бизнесом,
+                                                подготовка консолидирующей отчетности, предоставление временного
+                                                персонала, доведение бизнеса до планируемых показателей
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="what__item">
+                                    <img class="what__item-img" src="./src/what5.svg" alt="Иконка к тексту">
+                                    <div class="what__item-txt">
+                                        <h5 class="what__item-title">Аудит IT и автоматизации</h5>
+                                        <ul class="what__item-list">
+                                            <li class="what__item-point">
+                                                Проблемы с хостингом, сайтом, онлайн-кассой,
+                                                CRM?
+                                            </li>
+                                            <li class="what__item-point">
+                                                Порекомендуем местные IT решения, устраним
+                                                ошибки, предложим варианты автоматизации, как у конкурентов!
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="what__item">
+                                    <img class="what__item-img" src="./src/what6.svg" alt="Иконка к тексту">
+                                    <div class="what__item-txt">
+                                        <h5 class="what__item-title">Аудит бизнес-процессов</h5>
+                                        <ul class="what__item-list">
+                                            <li class="what__item-point">
+                                                Чувствуете, что бизнес уже не сможет приносить результат?
+                                            </li>
+                                            <li class="what__item-point">
+                                                Изучим специфику ниши, предложим альтернативу
+                                                или замену бизнес-процессов, подскажем, как правильно перенаправить
+                                                ресурсы
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="what__item">
+                                    <img class="what__item-img" src="./src/what7.svg" alt="Иконка к тексту">
+                                    <div class="what__item-txt">
+                                        <h5 class="what__item-title">Организация Start-up`а</h5>
+                                        <ul class="what__item-list">
+                                            <li class="what__item-point">
+                                                Хотите запустить проект с нуля, но не знаете с чего начать,
+                                                или ищите надежного партнера?
+                                            </li>
+                                            <li class="what__item-point">
+                                                MYFORCE BUSINESS поможет полностью упаковать
+                                                новый бизнес, выведет его на конкурентный уровень, и гарантирует
+                                                бизнес-показатели по договору!
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="what__item">
+                                    <img class="what__item-img" src="./src/what8.svg" alt="Иконка к тексту">
+                                    <div class="what__item-txt">
+                                        <h5 class="what__item-title">Кадры и обучение</h5>
+                                        <ul class="what__item-list">
+                                            <li class="what__item-point">
+                                                Испытываете дефицит в профессиональных
+                                                кадрах?
+                                            </li>
+                                            <li class="what__item-point">
+                                                Поможем найти и обучить нужных вам специалистов
+                                                с гарантией трудоустройства после стажировки или испытательного срока!
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="what__line"></div>
+                            <div class="what__footer">
+                                <p class="what__footer-txt">Узнайте больше о ваших возможностях <span style="font-weight: 700;">с MYFORCE BUSINESS</span></p>
+                                <a class="btn__empty-pink popup-btn">Узнать о всех возможностях</a> <!-- Ведёт на попап-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="know">
+                <div class="container">
+                    <div class="know__body">
+                        <img class="know__img1" src="./src/know-pattern.svg" alt="Многогранник">
+                        <img class="know__img2" src="./src/know-pattern.svg" alt="Многогранник">
+                        <img class="know__img3" src="./src/know-pattern.svg" alt="Многогранник">
+                        <img class="know__img4" src="./src/know-pattern.svg" alt="Многогранник">
+                        <h5 class="know__title">Узнай, распространяется ли <span style="font-weight: 600;">ФЗ №46</span>
+                            от 8 марта 2022 года на твой бизнес</h5>
+                        <a href="pages/quiz.html" class="btn__pink">Узнать подходит ли бизнес к закону ФЗ№46
+                            <svg width="22" height="22" viewBox="0 0 22 22" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="11" cy="11" r="10.5" stroke="white"/>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M6.1875 10.3125C6.00516 10.3125 5.8303 10.3849 5.70136 10.5139C5.57243 10.6428 5.5 10.8177 5.5 11C5.5 11.1824 5.57243 11.3572 5.70136 11.4862C5.8303 11.6151 6.00516 11.6875 6.1875 11.6875H14.1529L11.2007 14.6383C11.1368 14.7022 11.0861 14.7781 11.0515 14.8616C11.0169 14.9451 10.9991 15.0346 10.9991 15.125C10.9991 15.2154 11.0169 15.3049 11.0515 15.3884C11.0861 15.472 11.1368 15.5478 11.2007 15.6118C11.2647 15.6757 11.3406 15.7264 11.4241 15.761C11.5076 15.7956 11.5971 15.8134 11.6875 15.8134C11.7779 15.8134 11.8674 15.7956 11.9509 15.761C12.0344 15.7264 12.1103 15.6757 12.1742 15.6118L16.2992 11.4868C16.3633 11.4229 16.4141 11.347 16.4487 11.2635C16.4834 11.18 16.5012 11.0904 16.5012 11C16.5012 10.9096 16.4834 10.82 16.4487 10.7365C16.4141 10.653 16.3633 10.5771 16.2992 10.5133L12.1742 6.38826C12.1103 6.32434 12.0344 6.27364 11.9509 6.23904C11.8674 6.20445 11.7779 6.18665 11.6875 6.18665C11.5971 6.18665 11.5076 6.20445 11.4241 6.23904C11.3406 6.27364 11.2647 6.32434 11.2007 6.38826C11.1368 6.45219 11.0861 6.52807 11.0515 6.61159C11.0169 6.6951 10.9991 6.78462 10.9991 6.87501C10.9991 6.96541 11.0169 7.05492 11.0515 7.13844C11.0861 7.22196 11.1368 7.29784 11.2007 7.36176L14.1529 10.3125H6.1875Z" fill="white"/>
+                            </svg>
+                        </a> <!-- Ведёт на квиз-->
+                    </div>
+                </div>
+            </section>
+
+            <section class="project">
+                <img class="project__gradient" src="./src/gradient.svg" alt="Градиент"/>
+                <div class="container">
+                    <div class="project__body">
+                        <div class="project__left">
+                            <ul class="project__list">
+                                <li class="project__point">
+                                    Бизнес-аналитики, налоговые юристы, специалисты по рискам, и многие другие
+                                </li>
+
+                                <li class="project__point">
+                                    Более 50 специалистов по маркетингу и рекламе
+                                </li>
+
+                                <li class="project__point">
+                                    Более 100 специалистов по продажам, бизнесу, инвестициям, и финансам
+                                </li>
+
+                                <li class="project__point">
+                                    HR специалисты с 10 летним стажем закрытия ТОП вакансии в России
+                                </li>
+
+                                <li class="project__point">
+                                    Более 20 IT специалистов с опытом в мировых проектах
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="project__right">
+                            <div class="count white">
+                                <div class="dash__white"></div>
+                                <p class="count__num">03</p>
+                            </div>
+                            <h3 class="title white">Проект <span style="font-weight: 700;">MYFORCE</span></h3>
+                            <p class="project__def">
+                                — это экосистема для предпринимателей, целью которой является
+                                построение здорового бизнес-сообщества в РФ и СНГ!
+                            </p>
+                            <div class="project__photos">
+                                <img class="project__img" src="./src/project1.png" alt="Сотрудник компании MYFORCE"/>
+                                <img class="project__img" src="./src/project2.png" alt="Сотрудник компании MYFORCE"/>
+                                <img class="project__img" src="./src/project3.png" alt="Сотрудник компании MYFORCE"/>
+                                <img class="project__img" src="./src/project4.png" alt="Сотрудник компании MYFORCE"/>
+                                <img class="project__img" src="./src/project5.png" alt="Сотрудник компании MYFORCE"/>
+                            </div>
+                            <p class="project__txt">
+                                Мы объединяем в себе самый важный ресурс — опыт людей! А вы им
+                                пользуетесь!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="startup">
+                <div class="container">
+                    <div class="startup__body">
+                        <div class="count white">
+                            <div class="dash__white"></div>
+                            <p class="count__num">04</p>
+                        </div>
+                        <h3 class="title white">Наши кейсы и STARTUP</h3>
+                        <div class="startup__block">
+                            <div class="startup__item">
+                                <img class="startup__img" src="./src/startup1.png" alt="Логотип компании">
+                                <h6 class="startup__title">Редизайн и поддержка SEO-сайта</h6>
+                                <ul class="startup__list">
+                                    <li class="startup__point">Анализ функционала сайта</li>
+                                    <li class="startup__point">Редизайн и разработка сайта</li>
+                                    <li class="startup__point">Поддержка интегрированных сервисов</li>
+                                </ul>
+                            </div>
+
+                            <div class="startup__item">
+                                <img class="startup__img" src="./src/startup2.png" alt="Логотип компании">
+                                <h6 class="startup__title">Редизайн и поддержка интернет-магазина</h6>
+                                <ul class="startup__list">
+                                    <li class="startup__point">Анализ функционала</li>
+                                    <li class="startup__point">Редизайн и разработка сайта с дополнением функционала</li>
+                                    <li class="startup__point">Интеграция с внешними сервисами</li>
+                                </ul>
+                            </div>
+
+                            <div class="startup__item">
+                                <img class="startup__img" src="./src/startup3.png" alt="Логотип компании">
+                                <h6 class="startup__title">Разработка и поддержка SEO-сайта</h6>
+                                <ul class="startup__list">
+                                    <li class="startup__point">Анализ ЦА</li>
+                                    <li class="startup__point">Дизайн и разработка сайта с возможностью онлайн-оплаты</li>
+                                    <li class="startup__point">Интеграция с Битрикс24, Робокассой</li>
+                                </ul>
+                            </div>
+
+                            <div class="startup__item">
+                                <img class="startup__img" src="./src/startup4.png" alt="Логотип компании">
+                                <h6 class="startup__title">Индвидиальное продвижение</h6>
+                                <ul class="startup__list">
+                                    <li class="startup__point">Анализ сферы</li>
+                                    <li class="startup__point">Запуск рекламных кампаний</li>
+                                    <li class="startup__point">Увеличение конверсии с 5% до 15%</li>
+                                </ul>
+                            </div>
+
+                            <div class="startup__item">
+                                <img class="startup__img" src="./src/startup5.png" alt="Логотип компании">
+                                <h6 class="startup__title">Продвижение в социальных сетях и на рекламных площадках</h6>
+                                <ul class="startup__list">
+                                    <li class="startup__point">Разработка маркетинговой стратегии</li>
+                                    <li class="startup__point">Настройка аккаунтов</li>
+                                    <li class="startup__point">Увеличилась конверсия с 5% до 13%</li>
+                                </ul>
+                            </div>
+
+                            <div class="startup__item">
+                                <img class="startup__img" src="./src/startup6.png" alt="Логотип компании">
+                                <h6 class="startup__title">Создание корпоративного сайта для онлайн-банкротства</h6>
+                                <ul class="startup__list">
+                                    <li class="startup__point">Дизайн и разработка сайта</li>
+                                    <li class="startup__point">Дизайн и разработка личного кабинета банкрота</li>
+                                    <li class="startup__point">Интеграция с внешними сервисами</li>
+                                </ul>
+                            </div>
+
+                            <div class="startup__item">
+                                <img class="startup__img" src="./src/startup7.png" alt="Логотип компании">
+                                <h6 class="startup__title">Проработка маркетинговой стратегии и продвижение</h6>
+                                <ul class="startup__list">
+                                    <li class="startup__point">Помощь в раскачке бренда</li>
+                                    <li class="startup__point">Коучинг</li>
+                                    <li class="startup__point">Маркетинговое сопровождение</li>
+                                </ul>
+                            </div>
+
+                            <div class="startup__item">
+                                <img class="startup__img" src="./src/startup8.png" alt="Логотип компании">
+                                <h6 class="startup__title">Корпоративный сайт и личный кабинет клиента</h6>
+                                <ul class="startup__list">
+                                    <li class="startup__point">
+                                        Формирование корпоративного сайта и разработка личного
+                                        кабинета для онлайн-банкротства
+                                    </li>
+                                    <li class="startup__point">Интеграция с внешними сервисами</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="startup__line"></div>
+                        <p class="startup__txt">Оптимизируй свой бизнес с частичной компенсацие расходов</p>
+                        <a href="pages/quiz.html" class="btn__pink">Оптимизировать свой бизнес
+                            <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="11" cy="11" r="10.5" stroke="white"/>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M6.1875 10.3125C6.00516 10.3125 5.8303 10.3849 5.70136 10.5139C5.57243 10.6428 5.5 10.8177 5.5 11C5.5 11.1824 5.57243 11.3572 5.70136 11.4862C5.8303 11.6151 6.00516 11.6875 6.1875 11.6875H14.1529L11.2007 14.6383C11.1368 14.7022 11.0861 14.7781 11.0515 14.8616C11.0169 14.9451 10.9991 15.0346 10.9991 15.125C10.9991 15.2154 11.0169 15.3049 11.0515 15.3884C11.0861 15.472 11.1368 15.5478 11.2007 15.6118C11.2647 15.6757 11.3406 15.7264 11.4241 15.761C11.5076 15.7956 11.5971 15.8134 11.6875 15.8134C11.7779 15.8134 11.8674 15.7956 11.9509 15.761C12.0344 15.7264 12.1103 15.6757 12.1742 15.6118L16.2992 11.4868C16.3633 11.4229 16.4141 11.347 16.4487 11.2635C16.4834 11.18 16.5012 11.0904 16.5012 11C16.5012 10.9096 16.4834 10.82 16.4487 10.7365C16.4141 10.653 16.3633 10.5771 16.2992 10.5133L12.1742 6.38826C12.1103 6.32434 12.0344 6.27364 11.9509 6.23904C11.8674 6.20445 11.7779 6.18665 11.6875 6.18665C11.5971 6.18665 11.5076 6.20445 11.4241 6.23904C11.3406 6.27364 11.2647 6.32434 11.2007 6.38826C11.1368 6.45219 11.0861 6.52807 11.0515 6.61159C11.0169 6.6951 10.9991 6.78462 10.9991 6.87501C10.9991 6.96541 11.0169 7.05492 11.0515 7.13844C11.0861 7.22196 11.1368 7.29784 11.2007 7.36176L14.1529 10.3125H6.1875Z" fill="white"/>
+                            </svg>
+                        </a> <!-- Ведёт на квиз -->
+                    </div>
+                </div>
+            </section>
+
+            <section class="say">
+                <div class="container">
+                    <div class="say__body">
+                        <div class="count white">
+                            <div class="dash__white"></div>
+                            <p class="count__num">05</p>
+                        </div>
+                        <h3 class="title white">Что говорят о нас</h3>
+                        <div class="say__block">
+                            <div class="say__item">
+                                <img class="say__img" src="src/say1.png"
+                                     alt="Фотография человека, оставившего отзыв"/>
+                                <p class="say__name">Суров Алексей</p>
+                                <p class="say__txt">
+                                    Партнерство с компанией MYFORCE позволило выйти на новый уровень
+                                    развития бизнеса. Понравились сроки выполнения работ, а также реальный результат от
+                                    сотрудничества. Хочется отметить, что на протяжении всего времени действовала
+                                    постоянная поддержка со стороны партнеров, в прямом смысле 24/7
+                                </p>
+                                <div class="say__line"></div>
+                                <div class="say__location">
+                                    <img class="say__icon" src="src/location.svg" alt="Иконка локации"/>
+                                    <p class="say__city">Ставрополь</p>
+                                </div>
+                            </div>
+
+                            <div class="say__item">
+                                <img class="say__img" src="src/say2.png"
+                                     alt="Фотография человека, оставившего отзыв"/>
+                                <p class="say__name">Артин Василий</p>
+                                <p class="say__txt">
+                                    Я начал сотрудничество с компанией в самом обычном пакете, а на
+                                    конец 2018 года имел оборот более 80 банкротов в месяц. Выражаю благодарность за
+                                    отличный старт, а также вижу большие перспективы от совместных проектов
+                                </p>
+                                <div class="say__line"></div>
+                                <div class="say__location">
+                                    <img class="say__icon" src="src/location.svg" alt="Иконка локации"/>
+                                    <p class="say__city">Москва, Саратов</p>
+                                </div>
+                            </div>
+
+                            <div class="say__item">
+                                <img class="say__img" src="src/say3.png"
+                                     alt="Фотография человека, оставившего отзыв"/>
+                                <p class="say__name">Сырчин Алексей</p>
+                                <p class="say__txt">
+                                    Начал свой бизнес по программе франчайзинга MYFORCE и до сих пор
+                                    активно развиваю сферу благодаря профессиональной поддержке, как с технической, так
+                                    и с экспертной стороны
+                                </p>
+                                <div class="say__line"></div>
+                                <div class="say__location">
+                                    <img class="say__icon" src="src/location.svg" alt="Иконка локации"/>
+                                    <p class="say__city">Екатеринбург</p>
+                                </div>
+                            </div>
+
+                            <div class="say__item">
+                                <img class="say__img" src="src/say4.png"
+                                     alt="Фотография человека, оставившего отзыв"/>
+                                <p class="say__name">Татьяна Михалева</p>
+                                <p class="say__txt">
+                                    Выражаю благодарность за добросовестное партнерство компании
+                                    MYFORCE. С ними у меня произошел карьерный рост в юридической сфере. Желаю компании
+                                    дальнейшего развития и процветания
+                                </p>
+                                <div class="say__line"></div>
+                                <div class="say__location">
+                                    <img class="say__icon" src="src/location.svg" alt="Иконка локации"/>
+                                    <p class="say__city">Тула, Орел</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="begin">
+                <div class="container">
+                    <div class="begin__body">
+                        <img class="begin__gradient" src="src/gradient.svg" alt="Градиент"/>
+                        <div class="count blue">
+                            <div class="dash__black"></div>
+                            <p class="count__num">06</p>
+                        </div>
+                        <h3 class="title black">С чего начать или как сделать первый шаг?</h3>
+                        <div class="begin__block">
+                            <div class="begin__item">
+                                <p class="begin__num">1</p>
+                                <p class="begin__txt">
+                                    Взгляните на свой бизнес критично - в чем вы чувствуете, что не
+                                    дотягиваете
+                                </p>
+                            </div>
+
+                            <div class="begin__item">
+                                <p class="begin__num">2</p>
+                                <p class="begin__txt">Заполните анкету и укажите данные о себе</p>
+                            </div>
+
+                            <div class="begin__item">
+                                <p class="begin__num">3</p>
+                                <p class="begin__txt">Пообщайтесь с нашим консультантом по телефону и задайте вопросы</p>
+                            </div>
+
+                            <div class="begin__item">
+                                <p class="begin__num">4</p>
+                                <p class="begin__txt">Изучите готовое предложение от MYFORCE BUSINESS</p>
+                            </div>
+
+                            <div class="begin__item">
+                                <p class="begin__num">5</p>
+                                <p class="begin__txt">Заключите договор</p>
+                            </div>
+
+                            <div class="begin__item">
+                                <p class="begin__num">6</p>
+                                <p class="begin__txt">Получите частичную компенсацию расходов на проект</p>
+                            </div>
+
+                            <div class="begin__item">
+                                <p class="begin__num">7</p>
+                                <p class="begin__txt" style="font-weight: 600;">
+                                    Реинтегрируйте, оптимизируйте, или
+                                    запустите с нуля свой бизнес
+                                </p>
+                            </div>
+
+                            <div class="begin__btn">
+                                <a href="pages/quiz.html" class="btn__pink">Заполнить анкету
+                                    <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="11" cy="11" r="10.5" stroke="white"/>
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M6.1875 10.3125C6.00516 10.3125 5.8303 10.3849 5.70136 10.5139C5.57243 10.6428 5.5 10.8177 5.5 11C5.5 11.1824 5.57243 11.3572 5.70136 11.4862C5.8303 11.6151 6.00516 11.6875 6.1875 11.6875H14.1529L11.2007 14.6383C11.1368 14.7022 11.0861 14.7781 11.0515 14.8616C11.0169 14.9451 10.9991 15.0346 10.9991 15.125C10.9991 15.2154 11.0169 15.3049 11.0515 15.3884C11.0861 15.472 11.1368 15.5478 11.2007 15.6118C11.2647 15.6757 11.3406 15.7264 11.4241 15.761C11.5076 15.7956 11.5971 15.8134 11.6875 15.8134C11.7779 15.8134 11.8674 15.7956 11.9509 15.761C12.0344 15.7264 12.1103 15.6757 12.1742 15.6118L16.2992 11.4868C16.3633 11.4229 16.4141 11.347 16.4487 11.2635C16.4834 11.18 16.5012 11.0904 16.5012 11C16.5012 10.9096 16.4834 10.82 16.4487 10.7365C16.4141 10.653 16.3633 10.5771 16.2992 10.5133L12.1742 6.38826C12.1103 6.32434 12.0344 6.27364 11.9509 6.23904C11.8674 6.20445 11.7779 6.18665 11.6875 6.18665C11.5971 6.18665 11.5076 6.20445 11.4241 6.23904C11.3406 6.27364 11.2647 6.32434 11.2007 6.38826C11.1368 6.45219 11.0861 6.52807 11.0515 6.61159C11.0169 6.6951 10.9991 6.78462 10.9991 6.87501C10.9991 6.96541 11.0169 7.05492 11.0515 7.13844C11.0861 7.22196 11.1368 7.29784 11.2007 7.36176L14.1529 10.3125H6.1875Z" fill="white"/>
+                                    </svg>
+                                </a> <!-- Ведёт на квиз -->
+
+                                <a class="btn__empty-pink popup-btn">Получить консультацию</a> <!-- Ведёт на попап-->
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="ask">
+                <div class="container">
+                    <div class="count blue">
+                        <div class="dash__black"></div>
+                        <p class="count__num">07</p>
+                    </div>
+                    <h3 class="title black">Часто задаваемые вопросы</h3>
+
+                    <div class="ask__body">
+                        <div class="ask__left">
+                            <div class="ask__item">
+                                <div class="ask__question">
+                                    <p class="ask__question-txt">
+                                        Сколько проектов вы готовы взять для реализации в одно
+                                        время?
+                                    </p>
+                                    <div class="ask__arrow"></div>
+                                </div>
+                                <p class="ask__answer">
+                                    Наша нагрузку определяется степенью сложности проектов, так как
+                                    мы обладаем, пусть и большим, но лимитированным количество ресурсов (экспертов,
+                                    специалистов, консультантов). Для уточнения данной информации лучше обратиться за
+                                    консультацией к нашему менеджеру.
+                                </p>
+                            </div>
+
+                            <div class="ask__item">
+                                <div class="ask__question">
+                                    <p class="ask__question-txt">Как давно MYFORCE BUSINESS на рынке?</p>
+                                    <div class="ask__arrow"></div>
+                                </div>
+                                <p class="ask__answer">
+                                    Проект MYFORCE BUSINESS запущем 15.03.2022 года в связи с
+                                    принятием ФЗ №46 от 8 марта 2022 года. Компания MYFORCE работает на рынке
+                                    консалтинга с 2015 года, а опыт работы некоторых наших специалистов достигает 20-25
+                                    лет!
+                                </p>
+                            </div>
+
+                            <div class="ask__item">
+                                <div class="ask__question">
+                                    <p class="ask__question-txt">Что если мой бизнес подходит по ФЗ №46 от 8 марта 2022?</p>
+                                    <div class="ask__arrow"></div>
+                                </div>
+                                <p class="ask__answer">
+                                    В данном случае вы сможете получить льготное кредитование,
+                                    пониженную процентную ставку, или принять участие в гос. финансирование деятельности
+                                    (уточнить дополнительно), а также получить комплекс мероприятий от MYFORCE BUSINESS
+                                    с частичной компенсацией расходов.
+                                </p>
+                            </div>
+
+                            <div class="ask__item">
+                                <div class="ask__question">
+                                    <p class="ask__question-txt">Вы можете дать инвестиции для моего бизнеса?</p>
+                                    <div class="ask__arrow"></div>
+                                </div>
+                                <p class="ask__answer">
+                                    Мы не инвестиционная, не кредитная, и не финансовая компания - мы
+                                    не оказываем услуги финансирования бизнеса, и не привлекаем свои средства в
+                                    финансирование вашего проекта. Однако вопросы инвестиций мы умеем и знаем как
+                                    решать. Через нашу экосистему вы легко сможете найти инвестора в свой проект, или
+                                    посредника по льготному кредитованию бизнеса!
+                                </p>
+                            </div>
+
+                            <div class="ask__item">
+                                <div class="ask__question">
+                                    <p class="ask__question-txt">Что означает «частичная компенсация расходов» от MYFORCE?</p>
+                                    <div class="ask__arrow"></div>
+                                </div>
+                                <p class="ask__answer">
+                                    В процессе подготовки предложения для вас, наши специалисты
+                                    составляют смету по внедрению улучшений в ваш бизнес. Данная смета подразумевает
+                                    расходы на ее реализацию. Часть данных расходов покрывается за счет бюджетов MYFORCE
+                                    (за счет недополученной выгоды или за счет снижения себестоимости услуги) или за
+                                    счет партнерских скидок в экосистеме.
+                                </p>
+                            </div>
+
+                            <div class="ask__item">
+                                <div class="ask__question">
+                                    <p class="ask__question-txt">С кем я работаю, если начинаю сотрудничать с MYFORCE</p>
+                                    <div class="ask__arrow"></div>
+                                </div>
+                                <p class="ask__answer">
+                                    В-первую очередь, вы коммуницируете со специалистами MYFORCE, а
+                                    также с экспертами из нашей экосистемы. Договор подразумевает привлечение
+                                    проверенных субподрядчиков, ответственность за их работу несем мы на оговоренных
+                                    условиях. В данный момент в нашей экосистеме насчитывается более 100 партнеров и
+                                    экспертов (от Bitrix24 и Билайн, до СКБ Контур и системы Правовед).
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="ask__right">
+
+                            <div class="ask__item">
+                                <div class="ask__question">
+                                    <p class="ask__question-txt">Что если мой бизнес не подходит по ФЗ №46 от 8 марта 2022</p>
+                                    <div class="ask__arrow"></div>
+                                </div>
+                                <p class="ask__answer">
+                                    Тогда вы сможете получить от MYFORCE BUSINESS персональное
+                                    предложение для решения своих проблем бизнеса, или по запуску нового проекта!
+                                </p>
+                            </div>
+
+                            <div class="ask__item">
+                                <div class="ask__question">
+                                    <p class="ask__question-txt">MYFORCE BUSINESS — это платная услуга?</p>
+                                    <div class="ask__arrow"></div>
+                                </div>
+                                <p class="ask__answer">
+                                    Это не услуга, это набор мероприятий, которые нацелены на
+                                    изучение, реинтеграцию, и оптимизацию вашего действующего или нового бизнеса. В
+                                    процессе реализации мероприятий вам будут предложены варианты, которые помогут
+                                    сделать ваш бизнес более эффективным и прибыльным. Реализация предложенных вариантов
+                                    будет требовать вложения (инвестиций, или компенсации расходов на реализацию),
+                                    которые частично сможет покрыть MYFORCE BUSINESS.
+                                </p>
+                            </div>
+
+                            <div class="ask__item">
+                                <div class="ask__question">
+                                    <p class="ask__question-txt">Зачем заключать договор на программу MYFORCE BUSINESS?</p>
+                                    <div class="ask__arrow"></div>
+                                </div>
+                                <p class="ask__answer">
+                                    Мы стремимся сделать бизнес в России прозрачным, а значит и сами
+                                    должны на 100% соблюдать законодательство РФ. Мы заключаем договор с вами для
+                                    определения мероприятий по улучшению вашего бизнеса, который: а) Гарантирует для вас
+                                    качество выполненных мероприятий, б) Гарантирует для нас ваши добросовестные мотивы.
+                                    Договор полностью прозрачный, и в-первую очередь, дает вам понимаем всех работ и
+                                    мероприятий, которые вы получите по программе MYFORCE BUSINESS.
+                                </p>
+                            </div>
+
+                            <div class="ask__item">
+                                <div class="ask__question">
+                                    <p class="ask__question-txt">Вы даете какие-либо гарантии?</p>
+                                    <div class="ask__arrow"></div>
+                                </div>
+                                <p class="ask__answer">
+                                    Гарантии могут быть даны на поставку товара или услуги, или же на
+                                    их качество исполнения. Мы даем гарантии на реализацию всех мероприятий строго в тех
+                                    рамках, которые были оговорены с вами, а также на бизнес-показатели, в которых мы
+                                    100% можем быть уверены. Все гарантии, если они возможны, всегда указываются в
+                                    договоре, как его часть.
+                                </p>
+                            </div>
+
+                            <div class="ask__item">
+                                <div class="ask__question">
+                                    <p class="ask__question-txt">Я могу отказаться от MYFORCE BUSINESS в процессе реализации проекта?</p>
+                                    <div class="ask__arrow"></div>
+                                </div>
+                                <p class="ask__answer">
+                                    Конечно, вы можете выйти из участников договора в любое время на
+                                    оговоренных условиях. Мы не стремимся навязать вам наши возможности, наоборот, мы
+                                    хотим, чтобы вы увидели в них свое будущее!
+                                </p>
+                            </div>
+
+                            <div class="ask__item">
+                                <div class="ask__question">
+                                    <p class="ask__question-txt">Вы выдаете кредиты для бизнеса?</p>
+                                    <div class="ask__arrow"></div>
+                                </div>
+                                <p class="ask__answer">
+                                    Нет, мы не финансовая организация, и не выдает кредиты для
+                                    бизнеса, или любые другие виды займов. Мы занимаемся бизнес-консалтингом,
+                                    посредничеством, а также бизнес-оптимизацией в различных сферах (от HR и отдела
+                                    продаж, до IT и маркетинга).
+                                </p>
+                            </div>
+
+                            <div class="ask__item">
+                                <div class="ask__question">
+                                    <p class="ask__question-txt">Что такое экосистема MYFORCE</p>
+                                    <div class="ask__arrow"></div>
+                                </div>
+                                <p class="ask__answer">
+                                    Это бизнес-сообщество, в которое входят все передовые IT и
+                                    маркетинговые компании РФ и СНГ, эксперты по продажам и финансам, HR специалисты,
+                                    специалисты по внешнему управлению, и многие другие, кто готов делится своим опытом
+                                    и знаниями для оптимизации вашего бизнеса. Деятельность MYFORCE очень легко
+                                    объяснить - мы изучаем вашу проблему, находим специалиста, и несет ответственность
+                                    за его работу! На выходе вы получаете оптимизированный бизнес, а мы еще одного
+                                    эксперта в нашей экосистеме.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div class="popup" id="popup">
+                <div class="popup__body">
+                    <h3 class="popup__title">Получите консультацию по программе</h3>
+                    <form id="consultation" action="" method="post">
+                        <div class="popup__item">
+                            <input type="text" id="popup-name" class="name" name="name" placeholder="Ваше имя" required/>
+                        </div>
+
+                        <div class="popup__item">
+                            <input type="tel" id="popup-phone" class="phone" name="phone" placeholder="Ваш телефон" required/>
+                        </div>
+
+                        <button id="popup__btn" type="button" class="popup__btn-container">Консультация онлайн</button>
+                        <p class="popup__info">
+                            *отправляя формы на данном сайте, вы даете согласие
+                            на обработку персональных данных в соответствии с 152-ФЗ
+                        </p>
+
+                        <div class="popup__close-btn popup__close">
+                            <svg class="popup__close" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path class="popup__close" fill-rule="evenodd" clip-rule="evenodd" d="M20.781 3.21895C20.8508 3.28862 20.9062 3.37138 20.944 3.4625C20.9818 3.55362 21.0013 3.6513 21.0013 3.74995C21.0013 3.8486 20.9818 3.94629 20.944 4.0374C20.9062 4.12852 20.8508 4.21128 20.781 4.28095L4.28097 20.781C4.14014 20.9218 3.94913 21.0009 3.74997 21.0009C3.55081 21.0009 3.3598 20.9218 3.21897 20.781C3.07814 20.6401 2.99902 20.4491 2.99902 20.25C2.99902 20.0508 3.07814 19.8598 3.21897 19.719L19.719 3.21895C19.7886 3.14911 19.8714 3.09369 19.9625 3.05588C20.0536 3.01807 20.1513 2.99861 20.25 2.99861C20.3486 2.99861 20.4463 3.01807 20.5374 3.05588C20.6285 3.09369 20.7113 3.14911 20.781 3.21895Z" fill="#717171"/>
+                                <path class="popup__close" fill-rule="evenodd" clip-rule="evenodd" d="M3.22034 3.22034C3.1505 3.29001 3.09508 3.37277 3.05727 3.46389C3.01946 3.55501 3 3.65269 3 3.75134C3 3.84999 3.01946 3.94767 3.05727 4.03879C3.09508 4.12991 3.1505 4.21267 3.22034 4.28234L19.7203 20.7823C19.8612 20.9232 20.0522 21.0023 20.2513 21.0023C20.4505 21.0023 20.6415 20.9232 20.7823 20.7823C20.9232 20.6415 21.0023 20.4505 21.0023 20.2513C21.0023 20.0522 20.9232 19.8612 20.7823 19.7203L4.28234 3.22034C4.21267 3.1505 4.12991 3.09508 4.03879 3.05727C3.94767 3.01946 3.84999 3 3.75134 3C3.65269 3 3.55501 3.01946 3.46389 3.05727C3.37277 3.09508 3.29001 3.1505 3.22034 3.22034V3.22034Z" fill="#717171"/>
+                            </svg>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__body">
+                <div class="footer__left">
+                    <div class="footer__left-up">
+                        <h5 class="footer__title">Получите консультацию по вашему бизнесу прямо сейчас</h5>
+                        <a href="https://t.me/gsilver27" target="_blank" class="telegram">
+                            <svg class="telegram" width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="14" cy="14" r="11.75" stroke="white"/>
+                                <path d="M20.1132 8.93269C20.2223 8.2279 19.5522 7.67161 18.9256 7.94675L6.44422 13.4267C5.99482 13.624 6.0277 14.3047 6.49378 14.4532L9.06775 15.2728C9.55901 15.4293 10.091 15.3484 10.5199 15.052L16.3231 11.0427C16.4981 10.9218 16.6888 11.1707 16.5393 11.3248L12.3621 15.6316C11.9569 16.0493 12.0373 16.7573 12.5247 17.0629L17.2016 19.9958C17.7261 20.3247 18.401 19.9942 18.4991 19.3604L20.1132 8.93269Z" fill="white"/>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="footer__left-down">
+                        <a href="tel:84951183934" class="footer__phone">8 495 118 39 34</a>
+                    </div>
+                </div>
+                <div class="footer__right">
+                    <img class="logo" src="src/logo.svg" alt="Логотип MYFORCE">
+                    <h5 class="footer__sub">Экосистема для вашего бизнеса</h5>
+                    <p class="footer__remark">*отправляя формы на данном сайте, вы даете согласие на обработку персональных данных в соответствии с 152-ФЗ</p>
+                    <div class="footer__right-down">
+                        <a href="" class="footer__right-item">Политика конфиденциальности</a>
+                        <a href="" class="footer__right-item">ИНН: 6167130086</a>
+                        <a href="" class="footer__right-item">ОГРН: 1156196049415</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/jquery.maskedinput.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/quiz.js"></script>
+
+</body>
+</html>
