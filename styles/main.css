@@ -1024,7 +1024,7 @@ a:focus {
 
 @media screen and (max-width: 768px) {
     .ask {
-        padding-bottom: 20px;
+        padding-bottom: 40px;
     }
 
     .say__item {
@@ -1038,6 +1038,10 @@ a:focus {
 
     .ask__body {
         flex-direction: column;
+    }
+
+    .ask__right {
+        margin-top: 32px;
     }
 
     .project__right {
